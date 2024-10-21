@@ -1,0 +1,45 @@
+.mydrp{
+    list-style-type: none;
+}
+.form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffeae0;
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #ff511c;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #ff511c;
+  }
+  
+  input[type="submit"]:focus {
+    outline: none;
+  }
+  
+  textarea {
+    resize: vertical;
+  } 
